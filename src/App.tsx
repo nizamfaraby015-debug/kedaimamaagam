@@ -154,25 +154,25 @@ export default function App() {
               title: "Nasi Box",
               desc: "Berbagai pilihan nasi box dengan menu lengkap dan lezat.",
               price: "Mulai Rp 15.000",
-              img: "/nasi%20box.jpeg"
+              img: "/nasi-box.jpeg"
             },
             {
               title: "Menu Harian",
               desc: "Menu harian bergizi seimbang dengan cita rasa rumahan.",
               price: "Mulai Rp 12.000",
-              img: "/menu%20harian.jpeg"
+              img: "/menu-harian.jpeg"
             },
             {
               title: "Catering Acara",
               desc: "Melayani berbagai acara seperti nikahan, syukuran, arisan, dll.",
               price: "Harga Menyesuaikan",
-              img: "/catering%20acara.jpeg"
+              img: "/catering-acara.jpeg"
             },
             {
               title: "Pesanan Keluarga",
               desc: "Cocok untuk makan keluarga, arisan, atau acara kecil.",
               price: "Harga Menyesuaikan",
-              img: "/pesanan%20keluarga.jpeg"
+              img: "/pesanan-keluarga.jpeg"
             }
           ].map((item, idx) => (
             <div key={idx} className="bg-[#FCF9F2] rounded-3xl overflow-hidden border border-[#EBE4D5] flex flex-col hover:shadow-lg transition-all group">
